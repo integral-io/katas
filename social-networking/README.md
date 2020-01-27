@@ -36,6 +36,4 @@ Feature: Following
          Alice - I love the weather today (5 minutes ago)    
 ```
 
-**IMPORTANT:**  Implement the features focusing on **writing the best code** you can produce.
-
 Adapted from https://github.com/sandromancuso/social_networking_kata/blob/master/README.md
