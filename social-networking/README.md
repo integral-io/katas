@@ -36,13 +36,6 @@ Feature: Following
          Alice - I love the weather today (5 minutes ago)    
 ```
 
-### General requirements 
-
-- Timebox: 2 hours.
-- Language: Use any version of Java with build system (i.e. Maven or Gradle).
-- Dependencies: Use any dependencies necessary.
-- Interfaces: User-facing interfaces (i.e. Web, Console, etc.) are not necessary.
-- Code Submission: Add the code to your own Github account and send us the link.
-- **IMPORTANT:**  Implement the features focusing on **writing the best code** you can produce.
+**IMPORTANT:**  Implement the features focusing on **writing the best code** you can produce.
 
 Adapted from https://github.com/sandromancuso/social_networking_kata/blob/master/README.md
