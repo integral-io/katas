@@ -1,8 +1,8 @@
+
 package trivia.runner;
 
 import trivia.uglytrivia.Game;
 
-import java.io.PrintStream;
 import java.util.Random;
 
 public class GameRunner {
@@ -10,17 +10,13 @@ public class GameRunner {
     private static boolean notAWinner;
 
     public static void main(String[] args) {
-        new GameRunner().run(System.out, new Random());
-    }
-
-    public void run(PrintStream out, Random random) {
-        Game aGame = new Game(out);
+        Game aGame = new Game();
 
         aGame.add("Chet");
         aGame.add("Pat");
         aGame.add("Sue");
 
-        Random rand = random;
+        Random rand = new Random();
 
         do {
             aGame.roll(rand.nextInt(5) + 1);
@@ -33,5 +29,3 @@ public class GameRunner {
         } while (notAWinner);
     }
 }
-
-
