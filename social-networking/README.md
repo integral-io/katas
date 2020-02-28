@@ -21,7 +21,7 @@ Feature: Timeline
          Darn! We lost! (2 minute ago)
       
 Feature: Following
-   Scenario: Charlie can follow Alice and Bob, and he view an aggregated list of all timelines.
+   Scenario: Charlie can follow Alice and Bob, and he views an aggregated list of all timelines.
       Given Alice has published "I love the weather today."
       And Bob has published "Darn! We lost!"
       And Bob has published "Good game though."
