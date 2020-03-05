@@ -1,7 +1,7 @@
 Social Networking Kata
 ----------------------
 
-Implement the core domain logic for a social networking application (similar to Twitter) satisfying the features below.
+Implement the core **domain logic** for a social networking application (similar to Twitter) satisfying the features below.
 
 ``` {.sourceCode .gherkin}
 Feature: Publishing
@@ -9,7 +9,7 @@ Feature: Publishing
       Given Alice has published "I love the weather today."
       When Alice views her timeline
       Then Alice sees:
-         "I love the weather today. (5 seconds ago)"
+         "I love the weather today."
       
 Feature: Timeline
    Scenario: Alice views Bob's timeline.
