@@ -35,5 +35,3 @@ Feature: Following
          Bob - Damn! We lost! (2 minutes ago)     
          Alice - I love the weather today (5 minutes ago)    
 ```
-
-Adapted from https://github.com/sandromancuso/social_networking_kata/blob/master/README.md
