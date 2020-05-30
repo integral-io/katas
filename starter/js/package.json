@@ -1,0 +1,18 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
+}
