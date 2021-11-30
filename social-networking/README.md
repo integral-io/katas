@@ -35,3 +35,7 @@ Feature: Following
          Bob - Darn! We lost! (2 minutes ago)     
          Alice - I love the weather today (5 minutes ago)    
 ```
+Definitions:
+
+- `Timeline` - Shows a list of posts with time elapsed from 1 user.
+- `Wall` - Shows a list of posts with time elapsed from a user and the people they are following.
